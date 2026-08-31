@@ -1,0 +1,20 @@
+customer_number,customer_name,order_id,order_url,amount_numeric,currency,transaction_date,status_normalized,fulfilled
+7,Rajah Nadarajalingam,1257886,https://admin.chicksgroup.com/orders/chicksx/1257886,500,CAD,2026-07-02,Refund Requested,
+13,Dr H David Burstein,1259439,https://admin.chicksgroup.com/orders/website/1259439,10000,CAD,2026-07-04,Refund Requested,
+17,Geoffrey Cowman,1262893,https://admin.chicksgroup.com/orders/chicksx/1262893,950,CAD,2026-07-10,Refund Requested,
+34,Julia A Beru Francis,1262899,https://admin.chicksgroup.com/orders/chicksx/1262899,1500,CAD,2026-07-10,Refund Requested,
+91,Brennan Gontran Gordon,1273578,https://admin.chicksgroup.com/orders/chicksx/1273578,362,CAD,2026-07-31,Refund Requested,
+96,Sylvie Bélanger,1282268,https://admin.chicksgroup.com/orders/chicksx/1282268,500,CAD,2026-08-16,Refund Requested,
+32,Dennis Merlin,1263440,https://admin.chicksgroup.com/orders/chicksx/1263440,400,CAD,2026-07-11,Refund Requested,
+32,Dennis Merlin,1263438,https://admin.chicksgroup.com/orders/chicksx/1263438,500,CAD,2026-07-11,Refund Requested,
+82,Gwongstraining Wong,1266080,https://admin.chicksgroup.com/orders/1266080,3000,CAD,2026-07-16,Refund Requested,
+101,Linda Elisa Beth Dupuis,1281112,https://admin.chicksgroup.com/orders/chicksx/1281112,545,CAD,2026-08-14,Refund Requested,
+31,Klaas Poissonnier,1261749,https://admin.chicksgroup.com/orders/1261749,50,EUR,2026-07-08,Refunded,false
+40,Dorothy Janecek,1257971,https://admin.chicksgroup.com/orders/1257971,950,CAD,2026-07-02,Refund Requested,false
+48,James Doug Wallace,1254401,https://admin.chicksgroup.com/orders/chicksx/1254401,1500,CAD,2026-06-26,Refund Requested,
+59,Catherine Guttmann,1241365,https://admin.chicksgroup.com/orders/1241365,105,USD,2026-06-03,Refunded,false
+95,Shlomo Ben Tzvi-Dov,1279620,https://admin.chicksgroup.com/orders/1279620,900,CAD,2026-08-11,Refund Requested,
+95,Shlomo Ben Tzvi-Dov,1279759,https://admin.chicksgroup.com/orders/1279759,900,CAD,2026-08-11,Refund Requested,
+75,Vicente Arenas Tankeh,1244248,https://admin.chicksgroup.com/orders/1244248,3000,CAD,2026-06-07,Refund Requested,
+33,Johannes De Guise,1262869,https://admin.chicksgroup.com/orders/chicksx/1262869,300,CAD,2026-07-10,Refund Requested,
+38,torey lisa,1261023,https://admin.chicksgroup.com/orders/1261023,19,CAD,2026-07-07,Refunded,false

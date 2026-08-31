@@ -1,0 +1,121 @@
+customer_number,customer_name,order_id,order_url,amount_raw,amount_numeric,currency,transaction_date_raw,transaction_date,status_raw,status_normalized,fulfilled,source_file
+46,Heather Hooper,1246380,https://admin.chicksgroup.com/orders/chicksx/1246380,1246380: 999 CAD,999,CAD,1246380: June 11,2026-06-11,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+46,Heather Hooper,1246860,https://admin.chicksgroup.com/orders/chicksx/1246860,1246860: 240 CAD,240,CAD,1246860: June 12,2026-06-12,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+8,Amed Carim,1258036,https://admin.chicksgroup.com/orders/chicksx/1258036,10.000 CAD,10000,CAD,July 2,2026-07-02,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+4,Edward J Gondor,1257046,https://admin.chicksgroup.com/orders/chicksx/1257046,3000 CAD,3000,CAD,July 1,2026-07-01,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+87,Glenda June Wood,1272501,https://admin.chicksgroup.com/orders/1272501,2000 CAD,2000,CAD,July 29,2026-07-29,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+42,Cheryl Lea Keuris,1226278,https://admin.chicksgroup.com/orders/chicksx/1226278,900 CAD,900,CAD,May 12,2026-05-12,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+16,Katsuko Shioiri,1229960,https://admin.chicksgroup.com/orders/chicksx/1229960,1200 CAD,1200,CAD,May 18,2026-05-18,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+43,Russell Banizdurty,1233728,https://admin.chicksgroup.com/orders/1233728,350 CAD,350,CAD,May 22,2026-05-22,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+41,Iftakar Ahmed Khan Kalyani,1250732,https://admin.chicksgroup.com/orders/chicksx/1250732,1133.95 CAD,1133.95,CAD,,,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+53,Gebhard Leberecht Berendes,1241998,https://admin.chicksgroup.com/orders/1241998,3000 CAD,3000,CAD,June 4,2026-06-04,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+2,David Shelton,1260639,https://admin.chicksgroup.com/orders/chicksx/1260639,1.000 CAD,1000,CAD,July 6,2026-07-06,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+11,Norman Du Mays,1246378,https://admin.chicksgroup.com/orders/1246378,5000 CAD,5000,CAD,June 11,2026-06-11,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+88,Victor Henry Gilpin,1269560,https://admin.chicksgroup.com/orders/1269560,3000 CAD,3000,CAD,July 23,2026-07-23,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+7,Rajah Nadarajalingam,1257886,https://admin.chicksgroup.com/orders/chicksx/1257886,500 CAD,500,CAD,July 2,2026-07-02,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+6,Ali Motamed,1261038,https://admin.chicksgroup.com/orders/1261038,424.50 CAD,424.5,CAD,July 7,2026-07-07,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+50,Kennsat Kennedy,1253451,https://admin.chicksgroup.com/orders/chicksx/1253451,2200 CAD,2200,CAD,June 25,2026-06-25,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+13,Dr H David Burstein,1259439,https://admin.chicksgroup.com/orders/website/1259439,"10,000 CAD",10000,CAD,July 4,2026-07-04,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+25,Carlo Vigliotti,1252080,https://admin.chicksgroup.com/orders/chicksx/1252080,2998 CAD,2998,CAD,June 22,2026-06-22,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+61,Josef Drobnik,1233412,https://admin.chicksgroup.com/orders/1233412,3000 CAD,3000,CAD,May 22,2026-05-22,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+14,Daniel Hrabchuk,1257439,https://admin.chicksgroup.com/orders/1257439,1257439: 100 CAD,100,CAD,1257439: July 2,2026-07-02,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+14,Daniel Hrabchuk,1258224,https://admin.chicksgroup.com/orders/chicksx/1258224,1258224: 50 CAD,50,CAD,1258224: July 3,2026-07-03,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+17,Geoffrey Cowman,1262893,https://admin.chicksgroup.com/orders/chicksx/1262893,950 CAD,950,CAD,July 10,2026-07-10,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+27,Betty Lou Klein,1242892,https://admin.chicksgroup.com/orders/chicksx/1242892,9900 CAD,9900,CAD,June 5,2026-06-05,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+9,Gerald Doolaege,1266184,https://admin.chicksgroup.com/orders/1266184,1266184: 9900 CAD,990,CAD,July 16 both,2026-07-16,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+9,Gerald Doolaege,1266187,https://admin.chicksgroup.com/orders/1266187,"1266187: 8,300 CAD",8300,CAD,July 16 both,2026-07-16,Complete (Fullfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+52,Yohan Beda Ossey,1244414,https://admin.chicksgroup.com/orders/1244414,1244414:  25 CAD,25,CAD,June 7 both,2026-06-07,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+52,Yohan Beda Ossey,1244435,https://admin.chicksgroup.com/orders/1244435,1244435: 50 CAD,50,CAD,June 7 both,2026-06-07,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+5,Joycelyn Gladys,1255358,https://admin.chicksgroup.com/orders/1255358,993.67 CAD,993.67,CAD,June 28,2026-06-28,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+93,Geraldine Myles,1280614,https://admin.chicksgroup.com/orders/chicksx/1280614,500 CAD,500,CAD,Aug 19,2026-08-19,In Progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+94,Brian Peter Leblanc,1282585,https://admin.chicksgroup.com/orders/chicksx/1282585,6000 CAD,6000,CAD,Aug 17,2026-08-17,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+23,Ibrahim Ahmed Abu-Zinid,1254221,https://admin.chicksgroup.com/orders/chicksx/1254221,2900 CAD,2900,CAD,June 26,2026-06-26,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+18,Anna Zachariah,1253208,https://admin.chicksgroup.com/orders/1253208,1253208:  1300 CAD,130,CAD,June 24 both,2026-06-24,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+18,Anna Zachariah,1253199,https://admin.chicksgroup.com/orders/1253199,1253199: 996.53 CAD,996.53,CAD,June 24 both,2026-06-24,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+34,Julia A Beru Francis,1262899,https://admin.chicksgroup.com/orders/chicksx/1262899,1500 CAD,1500,CAD,July 10,2026-07-10,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+1,Richard Hardacre,1250825,https://admin.chicksgroup.com/orders/chicksx/1250825,9.940 CAD,9940,CAD,June 19,2026-06-19,Complete,Complete,,List_of_Elderlie_Customers_No_Last_Seen.docx
+10,Marko Cupic,1242746,https://admin.chicksgroup.com/orders/chicksx/1242746,578.97 CAD,578.97,CAD,June 5,2026-06-05,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+15,Gisele Sauve,1253582,https://admin.chicksgroup.com/orders/1253582,1000 CAD,1000,CAD,June 25th,2026-06-25,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+79,Barry Robertson,1265105,https://admin.chicksgroup.com/orders/chicksx/1265105,1265105: 5000 CAD,500,CAD,July 14 all them,2026-07-14,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+79,Barry Robertson,1265066,https://admin.chicksgroup.com/orders/chicksx/1265066,1265066: 1000 CAD,100,CAD,July 14 all them,2026-07-14,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+79,Barry Robertson,1265043,https://admin.chicksgroup.com/orders/chicksx/1265043,1265043: 4000 CAD,400,CAD,July 14 all them,2026-07-14,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+22,Paul Michael Champagne,1242127,https://admin.chicksgroup.com/orders/chicksx/1242127,1000 CAD,1000,CAD,June 4,2026-06-04,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+24,Clive Burrell,1225817,https://admin.chicksgroup.com/orders/chicksx/1225817,500 CAD,500,CAD,May 11,2026-05-11,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+66,Frances H Mitchell,1236454,https://admin.chicksgroup.com/orders/1236454,130 CAD,130,CAD,May 27,2026-05-27,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+83,Gerald P Diemert,1261184,https://admin.chicksgroup.com/orders/chicksx/1261184,3000 CAD,3000,CAD,July 7,2026-07-07,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+80,Murray D Haggitt,1252214,https://admin.chicksgroup.com/orders/1252214,10K CAD,10000,CAD,June 22,2026-06-22,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+20,Maureen Nancy Baustad,1225440,https://admin.chicksgroup.com/orders/1225440,1000 CAD,1000,CAD,May 11,2026-05-11,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+19,Andrew Kaminer,1260710,https://admin.chicksgroup.com/orders/chicksx/1260710,Both 992.82,992.82,,July 6 both,2026-07-06,Cancelled,Cancelled,,List_of_Elderlie_Customers_No_Last_Seen.docx
+19,Andrew Kaminer,1260672,https://admin.chicksgroup.com/orders/chicksx/1260672,Both 992.82,992.82,,July 6 both,2026-07-06,Cancelled,Cancelled,,List_of_Elderlie_Customers_No_Last_Seen.docx
+64,Sachin Arun Seth,1261359,https://admin.chicksgroup.com/orders/1261359,1500 CAD,1500,CAD,July 7,2026-07-07,Complete (Fullfill: True),Complete,,List_of_Elderlie_Customers_No_Last_Seen.docx
+21,Martens Wolke Heinrich,1252589,https://admin.chicksgroup.com/orders/chicksx/1252589,1252589:  1150 CAD,115,CAD,All them June 23,2026-06-23,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+21,Martens Wolke Heinrich,1252606,https://admin.chicksgroup.com/orders/chicksx/1252606,1252606: 200 CAD,200,CAD,All them June 23,2026-06-23,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+21,Martens Wolke Heinrich,1252583,https://admin.chicksgroup.com/orders/chicksx/1252583,1252583: 350 CAD,350,CAD,All them June 23,2026-06-23,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+21,Martens Wolke Heinrich,1252586,https://admin.chicksgroup.com/orders/chicksx/1252586,1252586: 350 CAD,350,CAD,All them June 23,2026-06-23,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+21,Martens Wolke Heinrich,1252588,https://admin.chicksgroup.com/orders/chicksx/1252588,1252588: 350 CAD,350,CAD,All them June 23,2026-06-23,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+29,Allan Gerald Roeke,1253622,https://admin.chicksgroup.com/orders/chicksx/1253622,1455 CAD,1455,CAD,June 25,2026-06-25,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+62,Stencill-Hahn Wesley,1242978,https://admin.chicksgroup.com/orders/chicksx/1242978,1242978: 170 CAD,170,CAD,1242978: June 5,2026-06-05,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+62,Stencill-Hahn Wesley,1251312,https://admin.chicksgroup.com/orders/chicksx/1251312,1251312: 170 CAD,170,CAD,1251312: June 20,2026-06-20,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+91,Brennan Gontran Gordon,1273578,https://admin.chicksgroup.com/orders/chicksx/1273578,362 CAD,362,CAD,July 31,2026-07-31,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+89,Daniel J Churchward,1277155,https://admin.chicksgroup.com/orders/website/1277155,900 CAD,900,CAD,Aug 6,2026-08-06,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+37,Rodney William Moser,1257015,https://admin.chicksgroup.com/orders/chicksx/1257015,"e/a 10K CAD, total 40000 CAD",10000,CAD,1257015 and 1257025: July 1,2026-07-01,Completed (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+37,Rodney William Moser,1257025,https://admin.chicksgroup.com/orders/chicksx/1257025,"e/a 10K CAD, total 40000 CAD",10000,CAD,1257015 and 1257025: July 1,2026-07-01,Completed (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+37,Rodney William Moser,1257824,https://admin.chicksgroup.com/orders/chicksx/1257824,"e/a 10K CAD, total 40000 CAD",10000,CAD,1257824: July 2,2026-07-02,Completed (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+37,Rodney William Moser,1259422,https://admin.chicksgroup.com/orders/chicksx/1259422,"e/a 10K CAD, total 40000 CAD",10000,CAD,1259422: July 4,2026-07-04,Completed (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+44,Howard Shearer,1236600,https://admin.chicksgroup.com/orders/chicksx/1236600,9.999 CAD,9999,CAD,May 27,2026-05-27,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+35,Jedchinazam Ebalu Oko-Odion,1263624,https://admin.chicksgroup.com/orders/1263624,19.90 CAD,19.9,CAD,July 11,2026-07-11,Fullfilled True,Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+45,Carole Jacques,1245910,https://admin.chicksgroup.com/orders/chicksx/1245910,5000 CAD,5000,CAD,June 10,2026-06-10,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+3,Helen Jean Wooten,1254337,https://admin.chicksgroup.com/orders/1254337,1254337: 50 CAD,50,CAD,26 June both,2026-06-26,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+3,Helen Jean Wooten,1254314,https://admin.chicksgroup.com/orders/1254314,1254314: 150 CAD,150,CAD,26 June both,2026-06-26,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+12,Hugh Heater Elizabeth,1254224,https://admin.chicksgroup.com/orders/1254224,"2,150 CAD",2150,CAD,June 26,2026-06-26,Complete (Fullfiled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+28,Lilia Tamares,1254742,https://admin.chicksgroup.com/orders/1254742,1030 CAD,1030,CAD,June 27,2026-06-27,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+54,Kathy Lang,1237889,https://admin.chicksgroup.com/orders/chicksx/1237889,1250 CAD,1250,CAD,May 29,2026-05-29,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+96,Sylvie Bélanger,1282268,https://admin.chicksgroup.com/orders/chicksx/1282268,500 CAD,500,CAD,Aug 16,2026-08-16,Refund Request,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+98,Arnold Lowell Cipperley,1282729,https://admin.chicksgroup.com/orders/website/1282729,10.000 CAD,10000,CAD,Aug 17,2026-08-17,In Progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+99,Richardson Bayard,1276561,https://admin.chicksgroup.com/orders/1276561,35 CAD,35,CAD,Aug 5,2026-08-05,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+67,Andreas Tsoukalas,1279332,https://admin.chicksgroup.com/orders/1279332,3000 CAD,3000,CAD,Aug 10,2026-08-10,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+32,Dennis Merlin,1263440,https://admin.chicksgroup.com/orders/chicksx/1263440,1263440: 4000 CAD,400,CAD,July 11 both,2026-07-11,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+32,Dennis Merlin,1263438,https://admin.chicksgroup.com/orders/chicksx/1263438,1263438: 5000 CAD,500,CAD,July 11 both,2026-07-11,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+26,Suzanne Macdonald,1254071,https://admin.chicksgroup.com/orders/1254071,1100 CAD,1100,CAD,June 26,2026-06-26,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+82,Gwongstraining Wong,1266080,https://admin.chicksgroup.com/orders/1266080,3000 CAD,3000,CAD,July 16,2026-07-16,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+73,David Lloyd Brown,1237864,https://admin.chicksgroup.com/orders/chicksx/1237864,1389 CAD,1389,CAD,May 29,2026-05-29,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+63,Peter Nahirney,1245872,https://admin.chicksgroup.com/orders/1245872,1280 CAD,1280,CAD,June 10,2026-06-10,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+65,Deborah Morley,1237031,https://admin.chicksgroup.com/orders/1237031,650 CAD,650,CAD,May 28,2026-05-28,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+36,Devin Finn,1223192,https://admin.chicksgroup.com/orders/1223192,136.58 CAD,136.58,CAD,May 7,2026-05-07,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+69,David Nygaard,1240375,https://admin.chicksgroup.com/orders/chicksx/1240375,25 CAD,25,CAD,June 2,2026-06-02,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+101,Linda Elisa Beth Dupuis,1281112,https://admin.chicksgroup.com/orders/chicksx/1281112,545 CAD,545,CAD,Aug 14,2026-08-14,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+97,Leo Primo,1282528,https://admin.chicksgroup.com/orders/website/1282528,40 CAD,40,CAD,Aug 17,2026-08-17,In Progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+100,Caden Lam,1282570,https://admin.chicksgroup.com/orders/1282570,300 CAD,300,CAD,Aug 17,2026-08-17,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+92,Gregory D Mailloux,1280647,https://admin.chicksgroup.com/orders/chicksx/1280647,2000 CAD,2000,CAD,Aug 13,2026-08-13,In Progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+90,Georger Berger,1272800,https://admin.chicksgroup.com/orders/1272800,1272800: 982 CAD,982,CAD,1272800:  July 30,2026-07-30,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+90,Georger Berger,1273396,https://admin.chicksgroup.com/orders/1273396,1273396: 972 CAD,972,CAD,1273396: July 31,2026-07-31,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+81,Geraldine Jessie Dyer,1265187,https://admin.chicksgroup.com/orders/1265187,2545 CAD,2545,CAD,July 14,2026-07-14,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+31,Klaas Poissonnier,1261749,https://admin.chicksgroup.com/orders/1261749,50 EUR,50,EUR,July 8,2026-07-08,Refunded (Fulfilled: False),Refunded,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+40,Dorothy Janecek,1257971,https://admin.chicksgroup.com/orders/1257971,950 CAD,950,CAD,July 2,2026-07-02,Refund Requested (Fulfilled: False),Refund Requested,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+55,Sylvain Deschenes,1245364,https://admin.chicksgroup.com/orders/1245364,3000 CAD,3000,CAD,June 9,2026-06-09,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+56,Jace matthew Go masi,1243364,https://admin.chicksgroup.com/orders/1243364,23.13,23.13,,June 6,2026-06-06,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+68,Wodz Qc,1243666,https://admin.chicksgroup.com/orders/1243666,95 CAD,95,CAD,June 6,2026-06-06,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+74,Fred.Barker Barkhouse,1239763,https://admin.chicksgroup.com/orders/chicksx/1239763,968.38 CAD,968.38,CAD,June 1,2026-06-01,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+84,Geoffrey Fraser Mcculloch,1265728,https://admin.chicksgroup.com/orders/chicksx/1265728,3000 CAD,3000,CAD,July 5,2026-07-05,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+86,Tracy Kress,1268524,https://admin.chicksgroup.com/orders/chicksx/1268524,987 CAD,987,CAD,July 21,2026-07-21,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+30,Daniel Iordosopol,1246596,https://admin.chicksgroup.com/orders/chicksx/1246596,20 CAD,20,CAD,June 11,2026-06-11,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+48,James Doug Wallace,1254401,https://admin.chicksgroup.com/orders/chicksx/1254401,1500 CAD,1500,CAD,June 26,2026-06-26,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+57,Gary Elwood Willett,1235812,https://admin.chicksgroup.com/orders/1235812,1800 CAD,1800,CAD,May 26,2026-05-26,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+58,herus4628 // Atomic Shwan,1251676,https://admin.chicksgroup.com/orders/1251676,50 USDT,50,USDT,June 21,2026-06-21,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+59,Catherine Guttmann,1241365,https://admin.chicksgroup.com/orders/1241365,105 USD,105,USD,June 3,2026-06-03,Refunded (Fulfilled: False),Refunded,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+60,Sadek Ahmed,1238112,https://admin.chicksgroup.com/orders/1238112,100 USD,100,USD,May 29,2026-05-29,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+95,Shlomo Ben Tzvi-Dov,1279620,https://admin.chicksgroup.com/orders/1279620,1279620: 900 CAD,900,CAD,"Aug 11, both",2026-08-11,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+95,Shlomo Ben Tzvi-Dov,1279759,https://admin.chicksgroup.com/orders/1279759,1279759: 900 CAD,900,CAD,"Aug 11, both",2026-08-11,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+85,Zielonka1950a Zieliński/ Ludwik Zielony,1267994,https://admin.chicksgroup.com/orders/1267994,1000 PLN,1000,PLN,July 20,2026-07-20,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+47,Lloyd Harold Palmer,1246443,https://admin.chicksgroup.com/orders/1246443,600 CAD,600,CAD,June 11,2026-06-11,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+49,Laura Mancuso,1254390,https://admin.chicksgroup.com/orders/1254390,500 CAD,500,CAD,June 26,2026-06-26,Complete (Fulfilled: True),Complete,true,List_of_Elderlie_Customers_No_Last_Seen.docx
+71,Vincent Briere Tessier,1243552,https://admin.chicksgroup.com/orders/chicksx/1243552,145 CAD,145,CAD,June 6,2026-06-06,Complete (Fulfill: True),Complete,,List_of_Elderlie_Customers_No_Last_Seen.docx
+72,Olann Vandenoetelaer,1243688,https://admin.chicksgroup.com/orders/chicksx/1243688,50 CAD,50,CAD,June 6,2026-06-06,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+75,Vicente Arenas Tankeh,1244248,https://admin.chicksgroup.com/orders/1244248,3000,3000,CAD,June 7,2026-06-07,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+33,Johannes De Guise,1262869,https://admin.chicksgroup.com/orders/chicksx/1262869,1262869: 300 CAD,300,CAD,July 10 both,2026-07-10,Refund Requested,Refund Requested,,List_of_Elderlie_Customers_No_Last_Seen.docx
+33,Johannes De Guise,1262887,https://admin.chicksgroup.com/orders/chicksx/1262887,1262887: 480 CAD,480,CAD,July 10 both,2026-07-10,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+38,torey lisa,1261023,https://admin.chicksgroup.com/orders/1261023,19 CAD,19,CAD,July 7,2026-07-07,Refunded (Fulfilled: False),Refunded,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+39,Mohican Joseph Stanger,1237547,https://admin.chicksgroup.com/orders/1237547,50 CAD,50,CAD,May 29,2026-05-29,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx
+76,Charles Allyn Blake,1244659,https://admin.chicksgroup.com/orders/chicksx/1244659,1300 USD,1300,USD,June 8,2026-06-08,Chargeback Warning,Chargeback Warning,,List_of_Elderlie_Customers_No_Last_Seen.docx
+77,Zak,1239478,https://admin.chicksgroup.com/orders/chicksx/1239478,4.20 USD,4.2,USD,May 31,2026-05-31,In progress,In progress,,List_of_Elderlie_Customers_No_Last_Seen.docx
+78,w ef,1236235,https://admin.chicksgroup.com/orders/1236235,400 CAD,400,CAD,May 26,2026-05-26,Complete (Fulfilled: False),Complete,false,List_of_Elderlie_Customers_No_Last_Seen.docx

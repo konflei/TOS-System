@@ -1,0 +1,2 @@
+customer_number,customer_name,order_id,order_url,amount_numeric,currency,transaction_date,status_normalized,fulfilled
+76,Charles Allyn Blake,1244659,https://admin.chicksgroup.com/orders/chicksx/1244659,1300,USD,2026-06-08,Chargeback Warning,
