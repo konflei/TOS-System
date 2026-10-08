@@ -390,18 +390,35 @@ function IpTab({ ipEvents, customer }: { ipEvents: CustomerBundle['ipEvents']; c
           <h4 className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Raw IP / Device Events</h4>
           {ipEvents.map((ev) => (
             <div key={ev.id} className="bg-slate-800/30 rounded-lg p-4 border border-slate-800/50">
-              <div className="flex items-center gap-2 mb-2">
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
                 <Globe size={14} className="text-sky-400" />
                 <span className="text-sm text-slate-200">{ev.ip_address || 'Unknown IP'}</span>
+                {ev.event_id != null && <span className="text-xs text-slate-600">#{ev.event_id}</span>}
+                {ev.ip_score != null && (
+                  <span className="text-xs text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded">IP Score: {ev.ip_score}</span>
+                )}
               </div>
               <div className="grid grid-cols-3 md:grid-cols-6 gap-2 text-xs">
-                {[['VPN', ev.vpn], ['Proxy', ev.proxy], ['TOR', ev.tor], ['Mobile', ev.mobile_ip], ['Abuse', ev.recent_abuse], ['Crawler', ev.crawler]].map(([l, v]) => (
+                {[['VPN', ev.vpn], ['Proxy', ev.proxy], ['TOR', ev.tor], ['Mobile IP', ev.mobile_ip], ['Abuse', ev.recent_abuse], ['Crawler', ev.crawler]].map(([l, v]) => (
                   <span key={l as string} className={v ? 'text-amber-300' : 'text-slate-600'}>{l}: {v ? 'Yes' : 'No'}</span>
                 ))}
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3 text-sm">
+                {ev.ip_address && <div><span className="text-slate-500">IP Address:</span> <span className="text-slate-300 font-mono text-xs">{ev.ip_address}</span></div>}
+                {ev.isp && <div><span className="text-slate-500">ISP:</span> <span className="text-slate-300">{ev.isp}</span></div>}
+                {ev.city_region_zip && <div><span className="text-slate-500">Location:</span> <span className="text-slate-300">{ev.city_region_zip}</span></div>}
+                {ev.modified_date_raw && <div><span className="text-slate-500">Modified Date:</span> <span className="text-slate-300">{ev.modified_date_raw}</span></div>}
               </div>
               {ev.geo_note && <p className="text-sm text-slate-400 mt-2">Geo: {ev.geo_note}</p>}
               {ev.device_note && <p className="text-sm text-slate-400 mt-1">Device: {ev.device_note}</p>}
               {ev.raw_evidence && <p className="text-xs text-slate-500 mt-2 bg-slate-900/50 rounded p-2">{ev.raw_evidence}</p>}
+              {(ev.hits != null || ev.latitude != null || ev.longitude != null) && (
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-2 text-xs text-slate-500 bg-slate-900/30 rounded p-2">
+                  {ev.hits != null && <span>Hits: {ev.hits}</span>}
+                  {ev.latitude != null && <span>Lat: {ev.latitude}</span>}
+                  {ev.longitude != null && <span>Lon: {ev.longitude}</span>}
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -431,24 +448,37 @@ function WalletsTab({ wallets }: { wallets: CustomerBundle['wallets'] }) {
           </div>
           {w.screenings && w.screenings.length > 0 && (
             <div className="mt-3 space-y-2">
-              {w.screenings.map((s) => (
-                <div key={s.id} className="bg-slate-900/50 rounded p-3">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-sm text-slate-300">Risk Score: {s.risk_score ?? '—'}</span>
-                    <Pill color={s.risk_level === 'Severe' ? 'red' : s.risk_level === 'High' ? 'red' : s.risk_level === 'Medium' ? 'amber' : 'emerald'}>
-                      {s.risk_level}
-                    </Pill>
+              {w.screenings.map((s) => {
+                const hasRiskScore = s.risk_score != null;
+                const hasRiskDetails = s.risk_details != null && s.risk_details.trim() !== '';
+                const riskDetailsDisplay = hasRiskDetails
+                  ? s.risk_details
+                  : hasRiskScore
+                    ? 'Risk score available — no category-level exposure reported'
+                    : '—';
+                return (
+                  <div key={s.id} className="bg-slate-900/50 rounded p-3">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-sm text-slate-300">Risk Score: {s.risk_score != null ? `${s.risk_score}%` : '—'}</span>
+                      <Pill color={s.risk_level === 'Severe' ? 'red' : s.risk_level === 'High' ? 'red' : s.risk_level === 'Medium' ? 'amber' : 'emerald'}>
+                        {s.risk_level}
+                      </Pill>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {s.sanctions && <Pill color="red">Sanctions</Pill>}
+                      {s.scam_fraud && <Pill color="red">Scam/Fraud</Pill>}
+                      {s.mixer && <Pill color="amber">Mixer</Pill>}
+                      {s.darknet && <Pill color="red">Darknet</Pill>}
+                      {s.stolen_funds && <Pill color="red">Stolen Funds</Pill>}
+                    </div>
+                    <div className="mt-2">
+                      <p className="text-xs text-slate-500 mb-0.5">Risk Details:</p>
+                      <p className={`text-sm ${hasRiskDetails ? 'text-slate-300' : 'text-slate-600'}`}>{riskDetailsDisplay}</p>
+                    </div>
+                    {s.raw_findings && <p className="text-xs text-slate-500 mt-2">{s.raw_findings}</p>}
                   </div>
-                  <div className="flex flex-wrap gap-2">
-                    {s.sanctions && <Pill color="red">Sanctions</Pill>}
-                    {s.scam_fraud && <Pill color="red">Scam/Fraud</Pill>}
-                    {s.mixer && <Pill color="amber">Mixer</Pill>}
-                    {s.darknet && <Pill color="red">Darknet</Pill>}
-                    {s.stolen_funds && <Pill color="red">Stolen Funds</Pill>}
-                  </div>
-                  {s.raw_findings && <p className="text-xs text-slate-500 mt-2">{s.raw_findings}</p>}
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>

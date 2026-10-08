@@ -118,7 +118,15 @@ export interface CustomerEmail {
 export interface IpDeviceEvent {
   id: string;
   customer_id: string;
-  ip_address: string;
+  event_id: number | null;
+  ip_address: string | null;
+  ip_score: number | null;
+  modified_date_raw: string | null;
+  city_region_zip: string | null;
+  hits: number | null;
+  latitude: number | null;
+  longitude: number | null;
+  isp: string | null;
   vpn: boolean;
   proxy: boolean;
   tor: boolean;
@@ -133,8 +141,10 @@ export interface IpDeviceEvent {
 export interface WalletScreening {
   id: string;
   wallet_id: string;
+  wallet_screening_id: number | null;
   risk_score: number | null;
   risk_level: string;
+  risk_details: string | null;
   sanctions: boolean;
   scam_fraud: boolean;
   mixer: boolean;
@@ -147,6 +157,7 @@ export interface WalletScreening {
 export interface Wallet {
   id: string;
   customer_id: string;
+  wallet_id: number | null;
   address: string;
   network: string;
   currency: string;
